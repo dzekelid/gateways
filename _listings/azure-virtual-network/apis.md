@@ -27,18 +27,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-localnetworkgateways-get.md
-- name: Azure Virtual Network API Virtual Network Gateways Get Advertised Routes
-  description: This operation retrieves a list of routes the virtual network gateway
-    is advertising to the specified peer.
+- name: Azure Virtual Network API Local Network Gateways Create Or Update
+  description: Creates or updates a local network gateway in the specified resource
+    group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: http:://management.azure.com//
   tags: Gateways
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-getadvertisedroutes-post.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-getadvertisedroutes-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-localnetworkgateways-localnetworkgatewayname-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
