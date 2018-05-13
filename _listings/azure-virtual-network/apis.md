@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-localnetworkgateways-get.md
-- name: Azure Virtual Network API Application Gateways List All
-  description: Gets all the application gateways in a subscription.
+- name: Azure Virtual Network API Application Gateways Start
+  description: Starts the specified application gateway.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: http:://management.azure.com//
   tags: Gateways
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-applicationgateways-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-applicationgateways-applicationgatewayname-start-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-applicationgateways-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-applicationgateways-applicationgatewayname-start-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
