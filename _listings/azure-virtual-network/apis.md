@@ -38,17 +38,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-get-postman.md
-- name: Azure Virtual Network API Virtual Network Gateways Delete
-  description: Deletes the specified virtual network gateway.
+- name: Azure Virtual Network API Virtual Network Gateways List
+  description: Gets all virtual network gateways by resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: http:://management.azure.com//
   tags: Gateways
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
