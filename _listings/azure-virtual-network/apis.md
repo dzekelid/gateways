@@ -38,16 +38,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-get-postman.md
-- name: Azure Virtual Network API Virtual Network Gateways Generatevpnclientpackage
-  description: Generates VPN client package for P2S client of the virtual network
-    gateway in the specified resource group.
+- name: Azure Virtual Network API Virtual Network Gateways Get Bgp Peer Status
+  description: The GetBgpPeerStatus operation retrieves the status of all BGP peers.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: http:://management.azure.com//
   tags: Gateways
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-generatevpnclientpackage-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-getbgppeerstatus-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-virtualnetworkgateways-virtualnetworkgatewayname-getbgppeerstatus-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
