@@ -35,7 +35,25 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/aws-storage-gateway-service/action-listgateways-get.md
+- name: AWS Storage Gateway Service API List Gateways
+  description: Lists gateways owned by an AWS account in a region specified in the
+    request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
+  humanURL: https://aws.amazon.com/storagegateway/
+  baseURL: http:://{host}//
+  tags: Gateways
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/aws-storage-gateway-service/action-listgateways-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
+- type: x-faq
+  url: https://aws.amazon.com/storagegateway/faqs/
+- type: x-pricing
+  url: https://aws.amazon.com/storagegateway/pricing/
+- type: x-website
+  url: https://aws.amazon.com/storagegateway/
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
 - type: x-faq
