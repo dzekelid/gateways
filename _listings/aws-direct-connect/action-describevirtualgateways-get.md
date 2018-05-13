@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Describe Virtual Gateways
   version: 1.0.0
+  description: Returns a list of virtual private gateways owned by the AWS account.
 schemes:
 - http
 produces:
