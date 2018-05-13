@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-localnetworkgateways-get.md
-- name: Azure Virtual Network API Local Network Gateways Get
-  description: Gets the specified local network gateway in a resource group.
+- name: Azure Virtual Network API Local Network Gateways Delete
+  description: Deletes the specified local network gateway.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: http:://management.azure.com//
   tags: Gateways
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-localnetworkgateways-localnetworkgatewayname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-localnetworkgateways-localnetworkgatewayname-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-localnetworkgateways-localnetworkgatewayname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/gateways/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-localnetworkgateways-localnetworkgatewayname-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
