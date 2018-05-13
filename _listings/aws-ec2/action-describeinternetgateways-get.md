@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Internet Gateways
   version: 1.0.0
+  description: Describes one or more of your Internet gateways.
 schemes:
 - http
 produces:
