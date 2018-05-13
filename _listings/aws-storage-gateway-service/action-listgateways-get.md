@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API List Gateways
   version: 1.0.0
+  description: Lists gateways owned by an AWS account in a region specified in the
+    request.
 schemes:
 - http
 produces:
